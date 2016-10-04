@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AudiosearchClientSwift"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "A Swift sdk for authenticating application use with the Audiosear.ch API."
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ The AudiosearchClientSwift authenticates entire applications using client creden
   #
 
   # s.platform     = :ios
-    s.platform     = :ios, "8.0"
+    s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ The AudiosearchClientSwift authenticates entire applications using client creden
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-    s.source       = { :git => "https://github.com/popuparchive/AudiosearchClientSwift.git", :tag => "#{s.version}" }
+    s.source       = { :git => "https://github.com/AnasMostefaoui/AudiosearchClientSwift.git", :tag => "#{s.version}" }
 #s.source = {:path => '~/Documents/Libraries/AudiosearchClientSwift/AudiosearchClientSwift'}
 
 
@@ -136,6 +136,6 @@ The AudiosearchClientSwift authenticates entire applications using client creden
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
     s.dependency "p2.OAuth2"
-    s.dependency "Alamofire", "~> 3.0"
+    s.dependency "Alamofire", "~> 4.0"
 
 end
