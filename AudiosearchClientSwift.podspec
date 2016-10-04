@@ -135,7 +135,7 @@ The AudiosearchClientSwift authenticates entire applications using client creden
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.dependency "p2.OAuth2",:git=>"https://github.com/p2/OAuth2.git"
+   # s.dependency "p2.OAuth2",:git=>"https://github.com/p2/OAuth2.git"
     s.dependency "Alamofire", "~> 4.0"
 
 end
